@@ -114,3 +114,5 @@ probably time to encapsulate it.
   ```
   
   Here **Pizza** is an Interface **CheesePizza**, **CalmPizza** and **PepperoniPizza** implemented this **Pizza** interface. (See code for better underesting)
+  # UML Diagram
+  <img src="FactoryMethod.png"/>
