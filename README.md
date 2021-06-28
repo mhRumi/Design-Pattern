@@ -1,10 +1,12 @@
 # Design-Pattern
 <ol>
-<li> Factory Method</li>
-<li> Observer</li>
-<li> Strategy </li>
-<li> Singleton </li>
-<li> State </li>
-<li> Templete </li>
-<li> Command </li>
+<li> 
+  <a href="https://github.com/mhRumi/Design-Pattern/blob/master/src/factoryMethod/factoryMethod.md">Factory Method </a>
+  </li>
+  <li> <a href="https://github.com/mhRumi/Design-Pattern/blob/master/src/observer/observer.md"  </a> Observer </li>
+  <li>  <a href=""  </a> Strategy</li>
+  <li> <a href=""  </a> Singleton </li>
+  <li> <a href=""  </a> State </li>
+  <li> <a href=""  </a> Templete </li>
+  <li> <a href=""  </a> Command </li>
 </ol>
