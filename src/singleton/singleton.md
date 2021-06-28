@@ -74,6 +74,9 @@ point of access to it. </h3>
   
   ```
   
+  # ক্লাস ডায়াগ্রাম 
+  <img src="./singleton.png"/>
+  
   # চলুন একটি ড্রাইভার ক্লাস লিখে কোড রান করি 
   
   ```java
