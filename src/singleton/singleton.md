@@ -7,7 +7,7 @@ point of access to it. </h3>
 <h2> Singleton Pattern মূলত ২ ধরনের :</h2>
   <ol>
     <li> **Early Instantiation:** একদম শুরুতে ক্লাস লোডিং এর সময় অবজেক্ট creat করে ফেলা । 
-      <li> **Lazy Instantiation:** যখন দরকার তকন তৈরি করা । 
+      <li> **Lazy Instantiation:** যখন দরকার তখন তৈরি করা । 
   </ol>
 
 # সিঙ্গেল্টন(Singleton) প্যাটার্ন কেন লাগবে ? 
