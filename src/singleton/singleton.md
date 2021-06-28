@@ -35,14 +35,21 @@ point of access to it. </h3>
 
     // Other methods
 }
-  
   ```
-  
-  এখানে **Singleton** ক্লাসে আমরা **private** **static** type এর একটি instance create করেছি । কিন্তু কেন ? Singleton Pattern যেহেতু আমাদের আগেই বলছে একটি গ্লোভাল এক্সেস 
-  পয়েন্ট দিতে হবে তাই আমরা **public** **static** getInstance method টি তৈরি করেছি । Access modifier e **staic** দেওয়ার কারণ হচ্ছে যে কেও যাতে যেকোন স্থান থেকে এক্সেস করতে পারে । 
+ 
+ <h3> Constructor **private** কেন? </h3>
+ Singleton ক্লাসের বাহির থেকে কেও যাতে অবজেক্ট create করতে না পারে । 
+ 
+ <h3> uniqueInstance private কেন? </h3>
+ **private** দেওয়ার কারণ হছে এই অবজেক্টিকে কেউ যাতে সরাসরি **getInstance** method ছাড়া access করতে না পারে ।
+ <h3> uniqueInstance static কেন? </h3>
+ 
+   Singleton Pattern যেহেতু আমাদের আগেই বলছে একটি গ্লোভাল এক্সেস 
+  পয়েন্ট দিতে হবে । তাই আমরা **public** **static** getInstance method টি তৈরি করেছি । Access modifier e **staic** দেওয়ার কারণ হচ্ছে যে কেও যাতে যেকোন
+  স্থান থেকে এক্সেস করতে পারে । 
   এখন যেহেতু আমরা একবারই অবজেক্ট create করতে পাড়বো এবং এই একটি অবজেক্টই পরবর্তীতে আমাদের ব্যবহার করতে হবে , তাহলে আমাদের এই অব্জেক্তিতে কোন **variable** এ save করতে হবে ।
   এখন যেহেতু **getInstance** method **staic** type এর তাই এই method এর ভেতর **Non static** কোন ভ্যারিয়েবল ব্যবহার করা যাবে না । এইজন্য **uniqueInstance** এর
-  **access modifier** এ **static** ব্যবহার করা হয়েছে । এবং **private** দেওয়ার কারণ হছে এই অবজেক্টিকে কেউ যাতে সরাসরি **getInstance** method ছাড়া access করতে না পারে ।
+  **access modifier** এ **static** ব্যবহার করা হয়েছে ।
   
   <h2> কোড দেখে মনে হচ্ছে সব কিছু ঠিক ঠাক এ আছে । কিন্তু যদি **Multithreading** এর ঝামেলা আসে ! আমাদের কোড হ্যান্ডেল করতে পারবেতো ? না, **Multithreading** যাতে কোন প্রব্লেম
   তৈরি করতে না পারে আমরা এমন কোন ব্যবস্থা গ্রহণ করিনি । তাহলে চলুন **getInstance** method টিকে **syncronize** করে ফেলি </h2>
