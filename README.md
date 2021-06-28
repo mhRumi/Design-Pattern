@@ -5,7 +5,7 @@
   </li>
   <li> <a href="https://github.com/mhRumi/Design-Pattern/blob/master/src/observer/observer.md"  </a> Observer </li>
   <li>  <a href=""  </a> Strategy</li>
-  <li> <a href=""  </a> Singleton </li>
+  <li> <a href="https://github.com/mhRumi/Design-Pattern/blob/master/src/singleton/singleton.md"  </a> Singleton </li>
   <li> <a href=""  </a> State </li>
   <li> <a href=""  </a> Templete </li>
   <li> <a href=""  </a> Command </li>
