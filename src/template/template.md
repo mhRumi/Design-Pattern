@@ -98,6 +98,10 @@ public abstract class CaffeineBeverage {
 }
 ```
 
+<h2>এখানে CaffeineBeverage কিন্তু আপনাকে brew এবং addCondiments মেথডকে আপনার ইচ্ছে মতো ডিফাইন করতে দিচ্ছে </h2>
+# ক্লাস ডায়াগ্রাম
+<img src="./template.png">
+
 # নতুন কফি
 
 ```java
@@ -129,6 +133,8 @@ public class Tea extends CaffeineBeverage{
     }
 }
 ```
+
+<h2>Tea এবং Coffee ক্লাস কিন্তু সুপার ক্লাস CaffeineBeverage এর brew এবং addCondiments এর কাঠামো পরিবর্তন না করেই এর কাজ ডিফাইন করে দিয়েছে। </h2>
 
 # চলেন কোড রান করি
 
