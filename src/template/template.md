@@ -6,6 +6,12 @@ The Template Method Pattern defines the skeleton of an algorithm in a method,
 deferring some steps to subclasses. Template Method lets subclasses redefine certain
 steps of an algorithm without changing the algorithm’s structure.
 
+The Dependency Inversion Principle আমাদের শেখায়, কংক্রিট ক্লাস বাদ দিয়ে যত বেশী সম্ভব Abstraction ব্যবহার করতে 
+
+The Hollywood Principle is a technique for building frameworks or components so
+that lower-level components can be hooked into the computation, but without creating dependencies between the
+lower-level components and the higher-level layers.
+
 # অনেক পড়া লেখা হইছে, এখন একটু ক্যাফেইন দরকার
 
 আপনি আর আপনার বন্ধু ভার্সিটির লাল টঙ্গে গিয়ে মামাকে বললেন মামা একটা চা আর একটা কফি দেন(যদিও লাল টঙ্গে কফি পাওয়া যায় না)। মামা সাথে সাথে চা এবং কফি বানানো শুরু করলো...
