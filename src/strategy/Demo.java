@@ -7,6 +7,13 @@ import java.io.InputStreamReader;
 public class Demo {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        String operation = bufferedReader.readLine();
+        if(operation.equalsIgnoreCase("addition"))
+        {
+            float num1 = 7.5F, num2 = 10.5F;
+            Context context = new Context(new Addition());
+            System.out.println("Addition: "+context.executeStrategy(num1, num2));
+        }
         System.out.print("Please enter first number: ");
         float num1 = Float.parseFloat(bufferedReader.readLine());
         System.out.print("Please enter second number: ");
